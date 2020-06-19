@@ -1,0 +1,96 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Gilroy';
+}
+
+.container-flex-center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container.page {
+  max-width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Gilroy';
+  width: 105px;
+  margin-bottom: 70px;
+}
+
+.title h1 {
+  line-height: 42px;
+  font-weight: 900;
+  font-size: 56px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+.pink-dot {
+  color: #ff3644;
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.form-buttons.with-back {
+  justify-content: space-between;
+}
+
+.form-buttons .left {
+  align-self: flex-start;
+}
+
+.form-buttons .right {
+  align-self: flex-end;
+}
+
+.field {
+  margin-bottom: 30px;
+}
+
+.field a {
+  display: flex;
+  margin: 5px 0px 40px;
+  color: #999;
+  text-decoration: underline;
+}
+
+.field .input-group .input-group-text {
+  background-color: #fff;
+}
+.field .input-group .input-group-text,
+.form-control {
+  border: 0px;
+}
+
+.field .input-group input {
+  font-weight: 500;
+}
+
+.inverted {
+  transform: scaleX(-1);
+}
+
+.row {
+  margin: 0px;
+  width: 100%;
+}
